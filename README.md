@@ -58,6 +58,15 @@ class Doctor(models.Model):
 
 </details>
 
+## Component Diagram
+
+<details>
+<summary> Click here to see component diagram</summary>
+
+![Diagram](Component%20Hiearchy%20Diagram.png)
+
+</details>
+
 ## Path Table (Django)
 
 - **Unprotected Routes:**
