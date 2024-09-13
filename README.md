@@ -95,7 +95,7 @@ class Doctor(models.Model):
 - As a Hospital / Admin, I want to see a list of discharged patients.
 - As a doctor, I want to have access to the list of discharged patients for record keeping.
 - As a Hospital / Admin, I want to be able to hire nurses assigned to a doctor to delegate tasks.
-- As a Hospita / Admin I want to be able to evaluate the performance of my doctors.
+- As a Hospital / Admin I want to be able to evaluate the performance of my doctors.
 
 ## Plan of Attack
 
