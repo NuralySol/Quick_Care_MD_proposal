@@ -6,8 +6,8 @@
 
 - As a Hospital / Admin, I want to be able to sign up and sign in.
 - As a Hospital / admin, When I log in, I should see a list of all currently registered doctors.
-- As a Hospiatal / Admin, I want to be able to hire doctors to my Hospital.
-- As a hospiatal / Admin, I want to be able to fire doctors from the Hospital.
+- As a Hospital / Admin, I want to be able to hire doctors to my Hospital.
+- As a hospital / Admin, I want to be able to fire doctors from the Hospital.
 - As a Hospital / Admin, Any doctor removed should no longer have access to the app or patient information.
 - As a doctor, I want to be able to sign in to the hospital once i am registered by the Admin
 - As a doctor, I can view patient details, including name, diseases, and treatments.
