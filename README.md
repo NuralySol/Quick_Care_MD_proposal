@@ -113,4 +113,4 @@ class Doctor(models.Model):
 |  22nd Sunday   |             Time Off             |
 |  23rd Monday   |    Add CSS/ launch front end     |
 |  24th Tuesday  |       Review Stretch Goals       |
-| 25th Wednesday |             Present              |
+| 25th Wednesday |         Presentation Day         |
