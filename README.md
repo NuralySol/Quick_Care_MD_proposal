@@ -143,7 +143,7 @@ class Discharge(models.Model):
 ![Diagram](./Component%20Diagram%20MD%20-%20Component%20Diagram.jpg)
 ![Explandation](./Component%20Diagram%20MD%20-%20Explanation%20of%20components.jpg)
 
-# Component Breakdown for Hospital Management System
+# Component Breakdown for Quick Care MD App
 
 | Component           | Description                                                                                 | Role           | Functionality                                          |
 | ------------------- | ------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------ |
