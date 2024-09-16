@@ -225,7 +225,7 @@ push and commit, and test often"
 |  15th Sunday   |     Time Off / Research API      |
 |  16th Monday   | Begin functions/ Launch Back End |
 |  17th Tuesday  | Finalize Backend / _Deployment_  |
-| 18th Wednesday | Begin Front End / _Deplpoyment_  |
+| 18th Wednesday | Begin Front End / _Deployment_  |
 | 19th Thursday  |        Continue Front End        |
 |  20th Friday   |       Review Stretch Goals       |
 | 21st Saturday  |        Finalize Front End        |
