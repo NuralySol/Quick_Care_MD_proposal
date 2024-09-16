@@ -182,8 +182,7 @@ class Discharge(models.Model):
 
 ## MVP Stretch Goals
 
-- The first stretch goal should be FDA Open API for disease and treatment matching (No need for route
-  since it is an open and should be callable from front-end)
+- The first stretch goal should be FDA Open API for disease and treatment matching (No need for route on the backend [Open FDI API link docs](https://open.fda.gov/apis/))
 - Api implementation of the diseases Mayo Clinic and / or National Institute of Health (free API)
 - As a Hospital / Admin, I want to see a list of discharged patients.
 - As a doctor, I want to have access to the list of discharged patients for record keeping.
