@@ -1,25 +1,25 @@
 # Project Description
 
-**QuickCareMD** is a **Django / React SPA** walk-in medical app designed to enhance patient-doctor interactions and improve hospital workflow. With QuickCareMD, doctors can efficiently manage patient visits by viewing assigned patients, prescribing medication, and automatically removing treated patients from their dashboard (Discharging them) and sending the report to the Administration. The app also empowers hospital / administrators to manage the doctor roster, adding or removing doctors as needed to keep operations running smoothly. QuickCare ensures patients receive timely care while maintaining a seamless and organized experience for both medical professionals and hospital staff.
+**QuickCareMD** is a **Django / React SPA** walk-in medical App designed to enhance patient-doctor interactions and improve hospital workflow. With QuickCareMD, doctors can efficiently manage patient visits by viewing assigned patients, prescribing medication, and automatically removing treated patients from their dashboard (discharging them) and sending the report to the administration. The App also empowers hospital / administrators to manage the doctor roster, adding or removing doctors as needed to keep operations running smoothly. QuickCareMD ensures patients receive timely care while maintaining a seamless and organized experience for both medical professionals and hospital staff.
 
 ## MVP
 
 - As a Hospital / Admin, I want to be able to sign up and sign in.
-- As a Hospital / admin, When I log in, I should see a list of all currently registered doctors.
+- As a Hospital / Admin, When I log in, I should be able to see a list of all currently registered doctors.
 - As a Hospital / Admin, I want to be able to hire doctors to my Hospital.
 - As a hospital / Admin, I want to be able to fire (deactivate) doctors from the Hospital for bad work.
 - As a Hospital / Admin, Any doctor removed should no longer have access to the app or patient information.
-- As a doctor, I want to be able to sign in to the hospital once i am registered by the Admin
-- As a doctor, I can view patient details, including name, diseases, and treatments.
+- As a doctor, I want to be able to sign in to the hospital once I am registered by the Admin
+- As a doctor, I can view patient details, including name, diseases, and assign treatments.
 - As a doctor, I can prescribe medication to the patient.
-- As a doctor, once medication is prescribed, the patient will automatically be removed by the doctor.
+- As a doctor, once medication is prescribed, the patient can be removed by the doctor from the system.
 
 ## Wireframe of the App
 
-![Wireframe 1](Wireframe1.JPG)
-![Wireframe 2](Wireframe2.JPG)
-![Wireframe 3](Wireframe3.JPG)
-![Wireframe 4](Wireframe4.JPG)
+![Wireframe 1 landing page](Wireframe1.JPG)
+![Wireframe 2 Admin page](Wireframe2.JPG)
+![Wireframe 3 Doctor page](Wireframe3.JPG)
+![Wireframe 4 Treatment and report page](Wireframe4.JPG)
 
 ## ERD table for QuickCareMD app
 
@@ -35,7 +35,7 @@
 ## Django Models
 
 <details>
-    <summary> Click here to see some of the models in Django </summary>
+    <summary>Click here to see the models in Django backend</summary>
 
 ```python
 class User(AbstractUser):
@@ -140,8 +140,8 @@ class Discharge(models.Model):
 <details>
 <summary> Click here to see component diagram</summary>
 
-![Diagram](./Component%20Diagram%20MD%20-%20Component%20Diagram.jpg)
-![Explandation](./Component%20Diagram%20MD%20-%20Explanation%20of%20components.jpg)
+![Component Diagram](./Component%20Diagram%20MD%20-%20Component%20Diagram.jpg)
+![Summary of the Component Diagram](./Component%20Diagram%20MD%20-%20Explanation%20of%20components.jpg)
 
 # Component Breakdown for Quick Care MD App
 
@@ -187,6 +187,34 @@ class Discharge(models.Model):
 - As a doctor, I want to have access to the list of discharged patients for record keeping.
 - As a Hospital / Admin, I want to be able to hire nurses assigned to a doctor to delegate tasks.
 - As a Hospital / Admin I want to be able to evaluate the performance of my doctors.
+- As an Admin I want the ability to inform the doctors of their login info securely and via email that
+  they will have to provide during their hiriing process.
+- Api implementation of the diseases Mayo Clinic and / or National Institute of Health (free API)
+
+## Team expectations and roles
+
+> Nuraly - Repo Owner for both backend and front-end.
+
+"Everybody codes nobody retreats,
+push and commit, and test often"
+
+> No one - pushes after 6 pm. Do not push to the dev branch unless tested by the team
+
+- Rosevelt - responsble for general style and direction of the app.
+- Rodney - responsbile for front-end component implementation.
+- Nuraly - project manager, and review of the pull requests.
+- Everyfeature branch must be created before coding "git checkout -b"
+- Emphaty and communication is the key.
+
+**When in doubt check for Git Commands**
+
+<details>
+<summary> Git Cheatsheet </summary>
+
+![Git Cheatsheet 1](./Git%20Commands%201.png)
+![Git Cheatsheet 2](./Git%20Commands%202.png)
+
+</details>
 
 ## Plan of Attack
 
@@ -194,16 +222,16 @@ class Discharge(models.Model):
 | :------------: | :------------------------------: |
 |  13th Friday   |   Create and present proposal    |
 | 14th Saturday  |    Create backend structures     |
-|  15th Sunday   |      Time Off /Research API      |
+|  15th Sunday   |     Time Off / Research API      |
 |  16th Monday   | Begin functions/ Launch Back End |
-|  17th Tuesday  |  Finalize Backend / Deployment   |
-| 18th Wednesday |  Begin Front End / Deplpoyment   |
+|  17th Tuesday  | Finalize Backend / _Deployment_  |
+| 18th Wednesday | Begin Front End / _Deplpoyment_  |
 | 19th Thursday  |        Continue Front End        |
-|  20th Friday   |   Overview and launch project    |
+|  20th Friday   |       Review Stretch Goals       |
 | 21st Saturday  |        Finalize Front End        |
-|  22nd Sunday   |             Time Off             |
+|  22nd Sunday   | Time Off / Testing and Bug fixes |
 |  23rd Monday   |    Add CSS/ launch front end     |
-|  24th Tuesday  |       Review Stretch Goals       |
+|  24th Tuesday  |     Implement Stretch Goals      |
 | 25th Wednesday |         Presentation Day         |
 
 ## Day to day plan
