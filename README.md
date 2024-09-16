@@ -143,7 +143,7 @@ class Discharge(models.Model):
 ![Component Diagram](./Component%20Diagram%20MD%20-%20Component%20Diagram.jpg)
 ![Summary of the Component Diagram](./Component%20Diagram%20MD%20-%20Explanation%20of%20components.jpg)
 
-# Component Breakdown for Quick Care MD App
+## Component Breakdown for Quick Care MD App
 
 | Component           | Description                                                                                 | Role           | Functionality                                          |
 | ------------------- | ------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------ |
@@ -183,13 +183,15 @@ class Discharge(models.Model):
 
 ## MVP Stretch Goals
 
+- The first stretch goal should be FDA Open API for disease and treatment matching (No need for route
+  since it is an open and should be callable from front-end)
+- Api implementation of the diseases Mayo Clinic and / or National Institute of Health (free API)
 - As a Hospital / Admin, I want to see a list of discharged patients.
 - As a doctor, I want to have access to the list of discharged patients for record keeping.
 - As a Hospital / Admin, I want to be able to hire nurses assigned to a doctor to delegate tasks.
 - As a Hospital / Admin I want to be able to evaluate the performance of my doctors.
 - As an Admin I want the ability to inform the doctors of their login info securely and via email that
   they will have to provide during their hiriing process.
-- Api implementation of the diseases Mayo Clinic and / or National Institute of Health (free API)
 
 ## Team expectations and roles
 
@@ -225,14 +227,14 @@ push and commit, and test often"
 |  15th Sunday   |     Time Off / Research API      |
 |  16th Monday   | Begin functions/ Launch Back End |
 |  17th Tuesday  | Finalize Backend / _Deployment_  |
-| 18th Wednesday | Begin Front End / _Deployment_  |
+| 18th Wednesday |  Begin Front End / _Deployment_  |
 | 19th Thursday  |        Continue Front End        |
 |  20th Friday   |       Review Stretch Goals       |
 | 21st Saturday  |        Finalize Front End        |
 |  22nd Sunday   | Time Off / Testing and Bug fixes |
 |  23rd Monday   |    Add CSS/ launch front end     |
 |  24th Tuesday  |     Implement Stretch Goals      |
-| 25th Wednesday |         Presentation Day         |
+| 25th Wednesday |       **Presentation Day**       |
 
 ## Day to day plan
 
