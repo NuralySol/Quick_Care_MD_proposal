@@ -143,6 +143,24 @@ class Discharge(models.Model):
 ![Diagram](./Component%20Diagram%20MD%20-%20Component%20Diagram.jpg)
 ![Explandation](./Component%20Diagram%20MD%20-%20Explanation%20of%20components.jpg)
 
+# Component Breakdown for Hospital Management System
+
+| Component           | Description                                                                                 | Role           | Functionality                                          |
+| ------------------- | ------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------ |
+| **Login**           | Allows admins and doctors to log in.                                                        | Admin & Doctor | Validates credentials and redirects based on role.     |
+| **Signup**          | Allows the creation of new admin accounts.                                                  | Admin          | Redirects to the login page after a successful signup. |
+| **AdminDashboard**  | Central hub for admins, providing access to manage doctors, patients, treatments, and more. | Admin          | Links to various admin functionalities.                |
+| **DoctorList**      | Displays the list of doctors.                                                               | Admin          | View, edit, or delete doctors.                         |
+| **DoctorForm**      | A form used for creating and updating doctor records.                                       | Admin          | Add new doctors or edit existing ones.                 |
+| **PatientList**     | Displays the list of patients.                                                              | Admin & Doctor | View, edit, or delete patients.                        |
+| **PatientForm**     | A form used for creating and updating patient records.                                      | Admin & Doctor | Add new patients or edit existing ones.                |
+| **TreatmentList**   | Displays the list of treatments for patients.                                               | Admin & Doctor | View and update treatments.                            |
+| **TreatmentForm**   | A form used for creating and updating treatment records.                                    | Admin & Doctor | Add new treatments or update existing treatments.      |
+| **DiseaseList**     | Displays the list of diseases.                                                              | Admin & Doctor | View available diseases in the system.                 |
+| **DischargeList**   | Displays the list of discharged patients.                                                   | Admin          | View all discharged patients.                          |
+| **LogoutButton**    | Allows users to log out of the system.                                                      | Admin & Doctor | Ends the user session and redirects to the login page. |
+| **DoctorDashboard** | Central hub for doctors, providing access to their assigned patients and treatments.        | Doctor         | View and manage their patients and treatments.         |
+
 </details>
 
 ## Path Table (Django)
