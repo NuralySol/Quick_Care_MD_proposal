@@ -7,16 +7,19 @@
 - As a Hospital / Admin, I want to be able to sign up and sign in.
 - As a Hospital / admin, When I log in, I should see a list of all currently registered doctors.
 - As a Hospital / Admin, I want to be able to hire doctors to my Hospital.
-- As a hospital / Admin, I want to be able to fire doctors from the Hospital.
+- As a hospital / Admin, I want to be able to fire (deactivate) doctors from the Hospital for bad work.
 - As a Hospital / Admin, Any doctor removed should no longer have access to the app or patient information.
 - As a doctor, I want to be able to sign in to the hospital once i am registered by the Admin
 - As a doctor, I can view patient details, including name, diseases, and treatments.
 - As a doctor, I can prescribe medication to the patient.
-- As a doctor, once medication is prescribed, the patient will automatically be removed from my dashboard.
+- As a doctor, once medication is prescribed, the patient will automatically be removed by the doctor.
 
 ## Wireframe of the App
 
-![Wireframe Quick Care MD App]
+![Wireframe 1](Wireframe1.JPG)
+![Wireframe 2](Wireframe2.JPG)
+![Wireframe 3](Wireframe3.JPG)
+![Wireframe 4](Wireframe4.JPG)
 
 ## ERD table for QuickCareMD app
 
