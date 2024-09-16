@@ -193,7 +193,7 @@ class Discharge(models.Model):
 
 ## Team expectations and roles
 
-> Nuraly - GitHun Repo owner for both backend and front-end.
+> Nuraly - GitHub Repo owner for both backend and front-end.
 
 "Everybody codes nobody retreats,
 push and commit, and test often"
