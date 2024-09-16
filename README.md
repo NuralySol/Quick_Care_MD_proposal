@@ -141,7 +141,6 @@ class Discharge(models.Model):
 <summary> Click here to see component diagram</summary>
 
 ![Component Diagram](./Component%20Diagram%20MD%20-%20Component%20Diagram.jpg)
-![Summary of the Component Diagram](./Component%20Diagram%20MD%20-%20Explanation%20of%20components.jpg)
 
 ## Component Breakdown for Quick Care MD App
 
@@ -160,7 +159,7 @@ class Discharge(models.Model):
 | **DischargeList**   | Displays the list of discharged patients.                                                   | Admin          | View all discharged patients.                          |
 | **LogoutButton**    | Allows users to log out of the system.                                                      | Admin & Doctor | Ends the user session and redirects to the login page. |
 | **DoctorDashboard** | Central hub for doctors, providing access to their assigned patients and treatments.        | Doctor         | View and manage their patients and treatments.         |
-
+| **Navbar**          | A persistent navigation bar visible in both admin and doctor views.                         | Admin & Doctor | Links to various sections depending on user role.      |
 </details>
 
 ## Path Table (Django)
@@ -220,21 +219,21 @@ push and commit, and test often"
 
 ## Plan of Attack
 
-|      Day       |               Task               |
-| :------------: | :------------------------------: |
-|  13th Friday   |   Create and present proposal    |
-| 14th Saturday  |    Create backend structures     |
-|  15th Sunday   |     Time Off / Research API      |
-|  16th Monday   | Begin functions/ Launch Back End |
-|  17th Tuesday  | Finalize Backend / _Deployment_  |
-| 18th Wednesday |  Begin Front End / _Deployment_  |
-| 19th Thursday  |        Continue Front End        |
-|  20th Friday   |       Review Stretch Goals       |
-| 21st Saturday  |        Finalize Front End        |
-|  22nd Sunday   | Time Off / Testing and Bug fixes |
-|  23rd Monday   |    Add CSS/ launch front end     |
-|  24th Tuesday  |     Implement Stretch Goals      |
-| 25th Wednesday |       **Presentation Day**       |
+|      Day       |               Task                |
+| :------------: | :-------------------------------: |
+|  13th Friday   |    Create and present proposal    |
+| 14th Saturday  |     Create backend structures     |
+|  15th Sunday   |      Time Off / Research API      |
+|  16th Monday   | Begin functions / Launch Back End |
+|  17th Tuesday  |  Finalize Backend / _Deployment_  |
+| 18th Wednesday |  Begin Front End / _Deployment_   |
+| 19th Thursday  |        Continue Front End         |
+|  20th Friday   |       Review Stretch Goals        |
+| 21st Saturday  |        Finalize Front End         |
+|  22nd Sunday   | Time Off / Testing and Bug fixes  |
+|  23rd Monday   |     Add CSS/ launch front end     |
+|  24th Tuesday  |      Implement Stretch Goals      |
+| 25th Wednesday |       **Presentation Day**        |
 
 ## Day to day plan
 
