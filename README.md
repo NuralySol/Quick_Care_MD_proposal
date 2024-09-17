@@ -206,6 +206,13 @@ push and commit, and test often"
 - Everyfeature branch must be created before coding "git checkout -b"
 - Emphaty and communication is the key.
 
+<details>
+    <summary> Our Team expectations and roles </summary>
+    
+[Team roles and expectations docs](https://docs.google.com/document/d/1uRasR4O6qktlG6moz28Mo1J_4sA6ui1lV6mOiwY3khs/edit#heading=h.q8xg7y93qw7t)
+
+</details>
+
 **When in doubt check for Git Commands**
 
 <details>
